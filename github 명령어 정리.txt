@@ -19,6 +19,7 @@ git pull origin master
 >>git 기록 보기, 소스 시점 바꾸기
 git log                                             //커밋시점로그
 git reset 로그번호6자리 --hard      //커밋시점이동
+git reset --hard HEAD^^      //현재 커밋 시점(HEAD에서 2단계(^^) 전으로 이동 
 git revert 현재로그번호6자리                //바로전커밋시점이동
 
 >>branch만들기
