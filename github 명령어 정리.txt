@@ -21,8 +21,11 @@ git log                                             //커밋시점로그
 git reset 로그번호6자리 --hard      //커밋시점이동
 git reset --hard HEAD^^           //현재 커밋 시점(HEAD에서 2단계(^^) 전으로 이동 
 git revert 현재로그번호6자리                //바로전커밋시점이동
+
 git reflog                        //git명령어 사용 이력 조회
 git reset --hard 로그번호(git reflog로 조회한 해시값)    // 만약 git reset --hard로 커밋한 내역이 날아갔을 경우 해당 명령어를 실행하기 전 로그번호로 돌아가면 데이터가 복구된다.
+
+git reestore     // 커밋하지 않은 변경 사항을 마지막 커밋시점의 상태로 변경한다. 롤백과 같다. 
 
 >>branch만들기
 git branch 새로운branch명       //브랜치생성
