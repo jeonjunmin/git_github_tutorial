@@ -26,9 +26,9 @@ git reset --hard 로그번호(git reflog로 조회한 해시값)    // 만약 gi
 git reestore     // 커밋하지 않은 변경 사항을 마지막 커밋시점의 상태로 변경한다. 롤백과 같다. 
 
 >>reset 옵션        
---hard명령어는 리셋시점 이후 변경사항 모두 삭제,
---mixed옵션은 리셋시점 이후 변경사항을 stage에 올려놈(commit 바로 전단계)
---soft옵션은 stage올려 놓기 전 workspace상태로 변경
+--hard 옵션은 리셋시점 이후 변경사항 모두 삭제,
+--soft 옵션은 리셋시점 이후 변경사항을 stage에 올려놈(commit 바로 전단계)
+--mixed 옵션은 stage올려 놓기 전 workspace상태로 변경
 
 
 >>branch만들기
