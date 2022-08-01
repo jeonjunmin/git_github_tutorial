@@ -31,6 +31,13 @@ git revert 현재로그번호6자리(커밋ID)                //해당커밋ID�
 --mixed 옵션은 stage올려 놓기 전 workspace상태로 변경
 
 
+>>stash 변경사항 커밋하기보단 임시저장 할때 사용
+git stash   //스테이지에 올려놓은 변경 내역들을 커밋이 아니라 임시 공간에 저장한다.
+git stash list   //stash한 내역을 보여준다.
+git stash pop    //stash한 내용을 가져온다.(내역"git stash list" 초기화된다.)
+git stash apply  //stash한 내용을 가져온다.(내역"git stash list"은 남아있다.)
+
+
 >>branch만들기
 git branch 새로운branch명       //브랜치생성
 git checkout 새로운branch명    //브랜치이동
