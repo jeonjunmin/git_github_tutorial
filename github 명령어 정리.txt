@@ -5,6 +5,7 @@ jeonjunmin / Wnsals5348
 git status
 git add .   /  git add -A
 git commit -m "messsage"
+git commit --amend  // 커밋(HEAD) 내역 수정
 
 >>현재 연결된 github리스트보기
 git remote
@@ -55,6 +56,9 @@ git pull이란 원격 저장소의 정보를 가져오면서 자동으로 로컬
 git merge 가져올branch   //현상태의 브랜치에서 가져올branch를 병합함
 git log --graph --all --decorate   //병합기록 보기
 git rebase 가져올branch   //브랜치 재정렬합치기. 재배치정리하기.
+
+>>rebase
+git rebase --interactive 커밋로그번호  // 커밋 로그번호 이후의 커밋을 수정한다.
 
 >>git hub에 있는거 로컬에 새로운 branch(mytest2)로 가져오기
 git checkout -b mytest2 origin/mytest
