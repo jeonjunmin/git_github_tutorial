@@ -55,7 +55,7 @@ git pull이란 원격 저장소의 정보를 가져오면서 자동으로 로컬
 >>merge 하기
 git merge 가져올branch   //현상태의 브랜치에서 가져올branch를 병합함
 git log --graph --all --decorate   //병합기록 보기
-git rebase 가져올branch   //브랜치 재정렬합치기. 재배치정리하기.
+git rebase 타겟branch(보통은main브랜치)   //타겟brach위에 커밋을 쌓는다(옮긴다.) 이 행위 이후 타겟 브랜치로 스위치해서 git merge [rebase한브랜치] 명령어를 치면 브랜치가 한줄로 정리된다.
 
 >>rebase
 git rebase --interactive 커밋로그번호  // 커밋 로그번호 이후의 커밋을 수정한다.
